@@ -1,6 +1,8 @@
 # Bangkit-Capstone-Project
+
 SMART APP TO DETECT DISEASES in PADDY <br/>
 B21-CAP0470 - Alacritty Team <br/>
+What have been done : Create multiclass image classification model using CNN and transfer learning. <br/>
 
 Background
 ==========
