@@ -21,10 +21,15 @@ There are several causes related to that but one of the causes/problems that we 
 <br/>
 Our main objective is to minimize human error and detect the diseases as early as possible. By detecting the diseases early, farmer could trim and sterilize the infected parts to stop and avoid the spread of the diseases infection which could lead into harvest failure.<br/>
 
-The Model that is used
+The Final Model
 ======================
 To detect rice diseases, we use a CNN model. Our CNN model is based on pre-trained VGG19 architecture. To create the model specific to solve the problem we want to solve, we added some layers on top of the VGG19 model and trained it using the dataset we got before. Our model has six classes as the outputs. <br/>
 The model could detect whether the crop is healthy or infected by one of the 5 diseases :  Blast, Blight, Tungro, Brown Spot and Hispa. <br/>
+<h3>Example of the input data</h3>
+
+![image](https://user-images.githubusercontent.com/67742339/144525292-c224000b-8ae5-4d98-bd20-1d1995aae450.png)
+
+
 <h3>Accuracy and Loss</h3>
 ~70% Validation Accuracy <br/>
 
